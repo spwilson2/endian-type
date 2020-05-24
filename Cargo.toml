@@ -11,5 +11,10 @@ keywords = ["endian","byteorder"]
 license = "MIT"
 
 [features]
-default = ["std"]
+default = ["std", "use_num"]
 std = []
+use_num = []
+
+[dependencies.num]
+version = "0.2.1"
+default-features = false
